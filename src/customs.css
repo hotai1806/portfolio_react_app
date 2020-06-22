@@ -2,21 +2,51 @@ img.avatar{
     border-radius: 50%;
     width: 70px;
     height: 70px;
-   
     margin-top: 20px;
 }
+.big{
+    height: 1000px;
+}
+div .div-avatar{
+    position:sticky ;
+    background: transparent;
+    top: 0;
+   
+    padding: 5px;
+}
+
+#main {
+    margin: 40px;
+    height: 100px;
+    background-color: #004C80;
+    position: relative;
+    overflow: hidden;
+}
+
+#main div {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: #FFF;
+}
+
+.top { top: -10px; }
+.bottom { bottom: -10px; }
+.left { left: -10px; }
+.right { right: -10px; }
 
 
 .items {
     background-color: #999ca3;
   
     
-    margin-right:  90px;
+
     padding: 5px;
 }
 .item{
     margin: 10px;
-    display: inline-block;
+
 
     flex-direction: column-reverse;
 }
