@@ -12,21 +12,27 @@ div .div-avatar{
     position:sticky ;
     background: transparent;
     top: 0;
-   
+    z-index: 1;
     padding: 5px;
 }
-
+.out-box{
+    display:flex;
+    justify-content: center;
+}
 .box{
     position: relative;
     overflow: hidden;
+    float: left;
+    margin: 0px 20px 0px 20px;
+
+
 }
 .paper{
     width: 500px;
     height: 200px;
     text-align: center;
     background-color: #757ce8;
-    margin-left:40px ;
-    margin-right: 10px;
+ 
 }
 .top{
     top: -10px;

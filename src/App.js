@@ -27,15 +27,16 @@ function App() {
          <div className="div-avatar">
         <img src={require('./images/profile.jpg')} className="avatar" alt='' />
       </div>
-        <div className="items">
-     
-      <div> 
-       
-        
-        abc
-        </div>
-        </div>
-        
+      <div className="out-box" >
+          <div className="box">
+            <div className="right top" >  </div>
+                <div className="paper"> Skill</div>
+            </div>
+            <div className="box">
+                <div className="left top" >  </div>
+            <div className="paper"> Skill</div>
+            </div>
+          </div>
       </div>
         
       </div>
