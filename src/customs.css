@@ -1,14 +1,34 @@
 img.avatar{
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
+    border-radius: 40%;
+    width: 75px;
+    height: 75px;
     margin-top: 20px;
     justify-content: center;
 }
-.big{
-    height: 1000px;
+.sumary{
+    opacity: 70%;
+    width: 250px;
+    height: 120px;
+    background-color: #FFF;
+    z-index: 5;
+    position: absolute;
+    top: 160px;
+    left:160px ;
+    text-align: left;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+    
 }
-div .div-avatar{
+.big{
+    height: 800px;
+}
+.info{
+    position: absolute;
+    top: 10;
+
+}
+ .div-avatar{
     position:sticky ;
     background: transparent;
     top: 0;
@@ -21,25 +41,35 @@ div .div-avatar{
 }
 .box{
     position: relative;
-    overflow: hidden;
+    overflow: visible;
     float: left;
     margin: 0px 20px 0px 20px;
+    border: #999ca3;
+    height: fit-content;
+}
 
 
+li{
+    text-align: left;
 }
 .paper{
     width: 500px;
-    height: 200px;
+    height: fit-content;
     text-align: center;
-    background-color: #757ce8;
+    text-justify: auto;
+    background-color: #e0e1f1;
+    padding: 5px;
+    overflow: auto;
+  
+    
  
 }
 .top{
     top: -10px;
     position: absolute;
-    width: 20px;
-    height: 20px;
-    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+    border-radius: 55%;
     background-color: #FFF;
 }
 .left{
@@ -59,6 +89,12 @@ div .div-avatar{
 
     padding: 5px;
 }
+.slide{
+    position: absolute;
+    right: 10px;
+    border: red;
+
+  }
 .item{
     margin: 10px;
 
@@ -66,3 +102,9 @@ div .div-avatar{
     flex-direction: column-reverse;
 }
 
+.footer{
+    background-color: black;
+ 
+    display: block;
+    height: 100px;
+}
