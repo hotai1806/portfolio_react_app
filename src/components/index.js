@@ -10,6 +10,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import HomeIcon from '@material-ui/icons/Home';
 
+import ContactsOutlinedIcon from '@material-ui/icons/ContactsOutlined';
 const useStyles = makeStyles((theme) => ({
   root: {
     height: 180,
@@ -52,8 +53,9 @@ export const SimpleSlide =() => {
     <div className={classes.root}>
       <div className={classes.wrapper}>
       
-      <Button style={{  height: '40px', width:'40px', }}  variant="contained" color="primary" checked={checked} onClick={handleChange} label="Show" />
-
+      <Button style={{  height: '40px', width:'40px', }}  variant="contained" color="primary" checked={checked} onClick={handleChange} label="Show" >
+      <ContactsOutlinedIcon/> 
+      </Button>
         <Slide direction="up" in={checked} mountOnEnter unmountOnExit>
           <Paper  elevation={5} className={classes.paper}>
           <div style={{padding:'5px'}} > <ContactsIcon />  0907779873</div>
