@@ -5,7 +5,7 @@ img.avatar{
     margin-top: 20px;
     justify-content: center;
 }
-.sumary{
+div .sumary{
     opacity: 70%;
     width: 250px;
     height: 120px;
@@ -39,6 +39,43 @@ img.avatar{
     display:flex;
     justify-content: center;
 }
+@media(max-width:350px){
+    .sumary{
+        display: none;
+    }
+    .out-box{
+        flex-direction: column;
+        padding:5px 1px 1px 1px ;
+        left: 0px;
+    } 
+    .box{
+        margin: 1px;
+        display: block;
+        width: auto;
+        left: 0px;
+
+        
+    }
+    .paper{
+        width: 300px;
+        height: auto;
+        text-justify: auto;
+        left: 0px;
+        font-size: smaller;
+        word-break: break-all;
+        overflow: auto;
+        max-width: 280px;
+        min-width: 200px;
+        
+    }
+    .right{
+        display: none;
+    }
+    .footer{
+        width: 100%;
+    }
+
+}
 .box{
     position: relative;
     overflow: visible;
@@ -46,6 +83,7 @@ img.avatar{
     margin: 0px 20px 0px 20px;
     border: #999ca3;
     height: fit-content;
+    width: auto;
 }
 
 
@@ -104,7 +142,7 @@ li{
 
 .footer{
     background-color: black;
- 
+    width: 100%;
     display: block;
     height: 100px;
 }

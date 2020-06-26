@@ -4,17 +4,7 @@ import './App.css';
 import './customs.css';
 import {SimpleSlide} from './components/';
 
-// const useStyles = makeStyles((theme) => ({
-  
-//   paper: {
-//     padding: theme.spacing(5),
-//     textAlign: 'center',
-//     color: theme.palette.text.secondary,
-//     paddingLeft: theme.spacing(30),
-//     backgroundColor: "#757ce8"
- 
-//   },
-// }));
+
 
 function App() {
 

@@ -30,15 +30,7 @@ const useStyles = makeStyles((theme) => ({
     width:'200px',
     textAlign:'left',
   },
-  svg: {
-    width: 100,
-    height: 100,
-  },
-  polygon: {
-    fill: theme.palette.common.white,
-    stroke: theme.palette.divider,
-    strokeWidth: 1,
-  },
+
 }));
 
 export const SimpleSlide =() => {

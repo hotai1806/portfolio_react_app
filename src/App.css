@@ -27,6 +27,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+@media(max-width:350px){
+ .App-header{
+   background-position:center ;
+ }
+}
 
 .App-link {
   color: #61dafb;
