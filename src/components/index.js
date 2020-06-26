@@ -2,7 +2,7 @@ import React from 'react';
 
 import Paper from '@material-ui/core/Paper';
 import Slide from '@material-ui/core/Slide';
-
+import { useState, useEffect } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
 import ContactsIcon from '@material-ui/icons/Contacts';
@@ -15,7 +15,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     height: 180,
     position:'absolute',
-
+    top:"75%",
     right: "2%",
     zIndex:1
   },
@@ -35,7 +35,7 @@ const useStyles = makeStyles((theme) => ({
 
 export const SimpleSlide =() => {
   const classes = useStyles();
-  const [checked, setChecked] = React.useState(false);
+  const [checked, setChecked] = useState(false);
 
   const handleChange = () => {
     setChecked((prev) => !prev);

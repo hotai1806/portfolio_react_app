@@ -27,21 +27,16 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-@media(max-width:350px){
+
+@media(max-width:480px){
  .App-header{
    background-position:center ;
+   height: 20px;
  }
+ 
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

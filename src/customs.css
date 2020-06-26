@@ -40,6 +40,23 @@ div .sumary{
     justify-content: center;
 }
 @media(max-width:350px){
+    .paper{
+        width: 280px;
+        height: auto;
+        text-justify: auto;
+        left: 0px;
+        font-size: smaller;
+        word-break: break-all;
+        overflow: auto;
+        max-width: 280px;
+ 
+    }
+
+}
+@media(max-width:480px){
+    body{
+        scroll-behavior: unset;
+    }
     .sumary{
         display: none;
     }
@@ -47,6 +64,7 @@ div .sumary{
         flex-direction: column;
         padding:5px 1px 1px 1px ;
         left: 0px;
+        width: auto;
     } 
     .box{
         margin: 1px;
@@ -57,15 +75,15 @@ div .sumary{
         
     }
     .paper{
-        width: 300px;
+     
         height: auto;
         text-justify: auto;
         left: 0px;
         font-size: smaller;
         word-break: break-all;
         overflow: auto;
-        max-width: 280px;
-        min-width: 200px;
+        max-width: 350px;
+
         
     }
     .right{
@@ -76,6 +94,8 @@ div .sumary{
     }
 
 }
+
+
 .box{
     position: relative;
     overflow: visible;
